@@ -7,13 +7,11 @@
         {"from": "javapkg/package.json"},
         {
             "from": "pkg/hello.js", 
-            "method": "copy", 
-            "to": "pkg/hello.js"
+            "method": "copy" 
         }, 
         {
-            "from": "javapkg/Hello.java", 
-            "method": "copy", 
-            "to": "javapkg/Hello.java"
+            "from": "javapkg/HelloWorld.java", 
+            "method": "copy" 
         } 
     ]
 } 

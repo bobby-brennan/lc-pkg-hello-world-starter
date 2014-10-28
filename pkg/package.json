@@ -2,8 +2,6 @@
   "lucy_def": "hello-world-<%- username %>",
   "package_name": "js",
   "files": [{
-    "from": "hello.ejs",
-    "to": "hello.js",
-    "method": "render"
+    "from": "hello.js"
   }]
 }

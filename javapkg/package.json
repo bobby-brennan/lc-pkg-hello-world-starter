@@ -1,0 +1,9 @@
+{
+  "lucy_def": "hello-world-<%- username %>",
+  "package_name": "java",
+  "files": [{
+    "from": "hello.ejs",
+    "to": "HelloWorld.java",
+    "method": "render"
+  }]
+}

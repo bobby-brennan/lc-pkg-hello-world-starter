@@ -1,0 +1,19 @@
+{
+    "lucy_def": "hello-world-starter", 
+    "package_name": "hello-world-starter",
+    "files": [
+        {"from": "def.json"},
+        {"from": "pkg/package.json"},
+        {"from": "javapkg/package.json"},
+        {
+            "from": "pkg/hello.js", 
+            "method": "copy", 
+            "to": "pkg/hello.js"
+        }, 
+        {
+            "from": "javapkg/Hello.java", 
+            "method": "copy", 
+            "to": "javapkg/Hello.java"
+        } 
+    ]
+} 

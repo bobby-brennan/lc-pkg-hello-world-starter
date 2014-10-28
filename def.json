@@ -1,0 +1,8 @@
+{
+  "name": "hello-world-<%- username %>",
+  "description": "A hello world example for lucy",
+  "sample_input": {
+    "greeting": "Hello",
+    "person": "world"
+  }
+}
